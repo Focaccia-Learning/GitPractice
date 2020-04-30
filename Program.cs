@@ -17,8 +17,8 @@ namespace GitPractice
                 Password = "test"
             };
 
-            //狀況一:這版是本機的master
-            Console.WriteLine($"Hello World!{user.Account}，我是本機master");
+            //狀況一:這版是origin/master
+            Console.WriteLine($"Hello World!{user.Account}，我是origin/master");
         }
     }
 }
