@@ -21,6 +21,7 @@ namespace GitPractice
             Console.WriteLine($"Hello World!{user.Account}，我是origin/master");
             //狀況二:這是有勾追蹤遠端分支 看有甚麼差異
             Console.WriteLine($"追蹤遠端分支 Checked!!!");
+            //先Update到localmaster
         }
     }
 }
