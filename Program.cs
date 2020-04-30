@@ -19,6 +19,8 @@ namespace GitPractice
 
             //狀況一:這版是origin/master
             Console.WriteLine($"Hello World!{user.Account}，我是origin/master");
+            //狀況二:這是有勾追蹤遠端分支 看有甚麼差異
+            Console.WriteLine($"追蹤遠端分支 Checked!!!");
         }
     }
 }
