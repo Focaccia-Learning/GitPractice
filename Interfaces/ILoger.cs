@@ -2,6 +2,6 @@
 {
     public interface ILoger
     {
-        void IwantToDeleteYouLater();
+        string ChangeToAnotherFunction();
     }
 }
