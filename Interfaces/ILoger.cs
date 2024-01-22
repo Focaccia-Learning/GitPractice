@@ -2,6 +2,6 @@
 {
     public interface ILoger
     {
-        string ChangeToAnotherFunction();
+        string IWillChangeYou();
     }
 }
