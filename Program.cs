@@ -1,13 +1,16 @@
 ﻿using GitPractice.Model;
 using System;
+using GitPractice.Interfaces;
 
 namespace GitPractice
 {
     class Program
     {
+        private ILoger _loger;
+
+
         static void Main(string[] args)
         {
-
             UserAccount user = new UserAccount()
             {
                 ID = 1,
